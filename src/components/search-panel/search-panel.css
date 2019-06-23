@@ -1,0 +1,25 @@
+.top-panel {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-input {
+    width: auto;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.btn-group {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 514px) {
+    .top-panel {
+        justify-content: space-between !important;
+    }
+
+    .search-input {
+        margin-right: 3px;
+    }
+}

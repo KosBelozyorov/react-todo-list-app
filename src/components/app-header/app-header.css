@@ -1,0 +1,28 @@
+.app-header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 480px) {
+    .app-header {
+        justify-content: space-between;
+    }
+
+    .app-header h1 {
+        flex-grow: 1;
+    }
+}
+
+.app-header h2 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.no-to-do {
+    color: #17a2b9 !important;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
